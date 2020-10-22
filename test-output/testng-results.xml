@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54168" started-at="2020-09-20T16:02:09Z" finished-at="2020-09-20T16:03:03Z">
+    <groups>
+    </groups>
+    <test name="TestChrome" duration-ms="54168" started-at="2020-09-20T16:02:09Z" finished-at="2020-09-20T16:03:03Z">
+      <class name="com.tests.screenshots.TestActitime">
+        <test-method status="PASS" signature="openApp(java.lang.String)[pri:0, instance:com.tests.screenshots.TestActitime@192b07fd]" name="openApp" is-config="true" duration-ms="16222" started-at="2020-09-20T16:02:09Z" finished-at="2020-09-20T16:02:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:com.tests.screenshots.TestActitime@192b07fd]" name="enterURL" is-config="true" duration-ms="32811" started-at="2020-09-20T16:02:26Z" finished-at="2020-09-20T16:02:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method status="PASS" signature="signupMath()[pri:0, instance:com.tests.screenshots.TestActitime@192b07fd]" name="signupMath" duration-ms="5042" started-at="2020-09-20T16:02:58Z" finished-at="2020-09-20T16:03:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupMath -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.tests.screenshots.TestActitime@192b07fd]" name="closeApp" is-config="true" duration-ms="0" started-at="2020-09-20T16:03:03Z" finished-at="2020-09-20T16:03:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.tests.screenshots.TestActitime -->
+    </test> <!-- TestChrome -->
+  </suite> <!-- Suite -->
+</testng-results>
